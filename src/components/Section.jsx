@@ -11,6 +11,7 @@ export default (props) => {
 
 const Container = styled.section`
   width: 100vw;
+  padding: 30px 10%;
   display: flex;
   justify-content: center;
   align-items: center;
