@@ -11,8 +11,8 @@ export default () => {
     <App>
       <Navbar />
       <Hero></Hero>
-      <Section id="multimedia">
-        <h2>Multimedia</h2>
+      <Section id="news">
+        <h2>News</h2>
         <div className="row">
           
             <div className="col">

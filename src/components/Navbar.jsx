@@ -34,13 +34,13 @@ export default () => {
             )}
           </Hamb>
           <NavLinks open={mobileMenu}>
-            <NavItem onClick={() => setMobileMenu(!mobileMenu)}>
+            {/* <NavItem onClick={() => setMobileMenu(!mobileMenu)}>
               <Active>
                 <ItemLink href="#fechas">FECHAS</ItemLink>
               </Active>
-            </NavItem>
+            </NavItem> */}
             <NavItem onClick={() => setMobileMenu(!mobileMenu)}>
-              <ItemLink href="#multimedia">MULTIMEDIA</ItemLink>
+              <ItemLink href="#news">NEWS</ItemLink>
             </NavItem>
             <NavItem onClick={() => setMobileMenu(!mobileMenu)}>
               <ItemLink href="#about">NOSOTROS</ItemLink>
@@ -52,7 +52,9 @@ export default () => {
               <SocialIconsRow>
                 <NavItem>
                   <ItemSocial>
+                    <a href="" target="_blank">
                     <FaSpotify />
+                    </a>
                   </ItemSocial>
                 </NavItem>
                 <NavItem>
