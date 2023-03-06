@@ -7,6 +7,7 @@ import img1 from "./assets/news-img/palmers-cover-1.jpg";
 import img2 from "./assets/news-img/kamisama-fest-cuadrado.jpg";
 import Grid from "./components/Grid";
 import Scaffold from "./components/Scaffold";
+import Mailer from "./components/Mailer";
 
 export default () => {
   return (
@@ -106,7 +107,7 @@ export default () => {
       </Section>
       <Section id="contacto">
         <h2>Contacto</h2>
-        <p>Juan Pitto</p>
+        <Mailer />
       </Section>
     </App>
   );
