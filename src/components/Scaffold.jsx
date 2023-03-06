@@ -24,7 +24,7 @@ const Section = styled.section`
 
   .row {
     display: flex;
-    align-items: center;
+    align-items: top;
     width: 100%;
     justify-content: space-between;
   }
@@ -45,9 +45,10 @@ const Section = styled.section`
     margin: 20px auto;
   }
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 760px) {
     .row {
       flex-direction: column;
+      
     }
 
     .row .col img {
@@ -59,6 +60,9 @@ const Section = styled.section`
     h2 {
       text-align: center;
       letter-spacing: 0.2rem;
+    }
+    .row .col img {
+      width: 270px;
     }
   }
 `;
