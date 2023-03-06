@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Navbar = styled.nav`
   width: 100%;
   height: 70px;
-  background: #000000;
+  background: #000;
 `;
 
 export const Wrapper = styled.div`

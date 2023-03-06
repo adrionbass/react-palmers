@@ -54,6 +54,10 @@ export default () => {
           clásicos de la cumbia santafesina.
         </p>
       </Section>
+      <Section id="contacto">
+        <h2>Contacto</h2>
+        <p>Juan Pitto</p>
+      </Section>
     </App>
   );
 };

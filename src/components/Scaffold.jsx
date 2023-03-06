@@ -38,6 +38,10 @@ const Section = styled.section`
 
   .row .col img {
     width: 30vw;
+    transition: transform 0.3s ease;
+    &:hover{
+      transform: scale(1.1);
+    }
   }
   h4 {
     font-size: 1rem;

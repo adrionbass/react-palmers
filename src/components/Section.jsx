@@ -14,5 +14,5 @@ const Container = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #191919;
+  background: #090909;
 `;
