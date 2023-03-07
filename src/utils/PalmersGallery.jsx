@@ -28,6 +28,23 @@ import img27 from "../assets/gallery-img/pg (27).jpg"
 import img28 from "../assets/gallery-img/pg (28).jpg"
 import img29 from "../assets/gallery-img/pg (29).jpg"
 import img30 from "../assets/gallery-img/pg (30).jpg"
+import img31 from "../assets/gallery-img/pg (31).jpg"
+import img32 from "../assets/gallery-img/pg (32).jpg"
+import img33 from "../assets/gallery-img/pg (33).jpg"
+import img34 from "../assets/gallery-img/pg (34).jpg"
+import img35 from "../assets/gallery-img/pg (35).jpg"
+import img36 from "../assets/gallery-img/pg (36).jpg"
+import img37 from "../assets/gallery-img/pg (37).jpg"
+import img38 from "../assets/gallery-img/pg (38).jpg"
+import img39 from "../assets/gallery-img/pg (39).jpg"
+import img40 from "../assets/gallery-img/pg (40).jpg"
+import img41 from "../assets/gallery-img/pg (41).jpg"
+import img42 from "../assets/gallery-img/pg (42).jpg"
+import img43 from "../assets/gallery-img/pg (43).jpg"
+import img44 from "../assets/gallery-img/pg (44).jpg"
+import img45 from "../assets/gallery-img/pg (45).jpg"
+import img46 from "../assets/gallery-img/pg (46).jpg"
+import img47 from "../assets/gallery-img/pg (47).jpg"
 
 const PalmersGallery = [
   {
@@ -120,28 +137,61 @@ const PalmersGallery = [
   {
     "img_path": img30,
   },
+  {
+    "img_path": img31,
+  },
+  {
+    "img_path": img32,
+  },
+  {
+    "img_path": img33,
+  },
+  {
+    "img_path": img34,
+  },
+  {
+    "img_path": img35,
+  },
+  {
+    "img_path": img36,
+  },
+  {
+    "img_path": img37,
+  },
+  {
+    "img_path": img38,
+  },
+  {
+    "img_path": img39,
+  },
+  {
+    "img_path": img40,
+  },
+  {
+    "img_path": img41,
+  },
+  {
+    "img_path": img42,
+  },
+  {
+    "img_path": img43,
+  },
+  {
+    "img_path": img44,
+  },
+  {
+    "img_path": img45,
+  },
+  {
+    "img_path": img46,
+  },
+  {
+    "img_path": img47,
+  },
 ] 
 
 
 export default PalmersGallery;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* const route = '../assets/gallery-img/pg ('; */
