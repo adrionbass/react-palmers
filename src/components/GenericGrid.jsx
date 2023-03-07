@@ -7,7 +7,7 @@ export default (props) => {
 const GenericGrid = styled.div`
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   grid-auto-rows: auto;
 
   img {
@@ -31,8 +31,6 @@ const GenericGrid = styled.div`
       margin-top: 10%;
     }
     @media screen and (min-width: 940px) {
-      ${"" /* grid-template-columns: repeat(3, 1fr); */}
-
       &:nth-child(1) {
         grid-row: 1 / span 2;
       }

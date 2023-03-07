@@ -13,10 +13,15 @@ import { ItemSocial } from "./components/Navbar.elements";
 import MasonryLayout from "./components/MasonryLayout";
 import PalmersGallery from "./utils/PalmersGallery";
 import NosotrosGrid from "./components/NosotrosGrid";
+import { IoIosArrowDropupCircle } from "react-icons/io";
+import ScrollToTop from "react-scroll-up";
 
 export default () => {
   return (
     <App>
+      <ScrollToTop showUnder={160} color="#FFF">
+        <ToTopBtn><IoIosArrowDropupCircle/></ToTopBtn>
+      </ScrollToTop>
       <Navbar />
       <Hero id="home"></Hero>
       <Section id="news">
@@ -86,3 +91,9 @@ export default () => {
 };
 
 const App = styled.div``;
+
+const ToTopBtn = styled.i`
+color: whitesmoke;
+font-size: 35px;
+
+`

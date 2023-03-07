@@ -14,7 +14,7 @@ const Section = styled.section`
   h2 {
     font-size: 3rem;
     margin-bottom: 20px;
-    letter-spacing: 0.5rem;
+    letter-spacing: -0.5rem;
     transition: 0.3s all;
     &:hover {
       letter-spacing: 0.8rem;
