@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Section from "./components/Section";
-import Grid from "./components/Grid";
+import Grid from "./components/GenericGrid";
 import Scaffold from "./components/Scaffold";
 import Mailer from "./components/Mailer";
 import PalmersNews from "./utils/PalmersNews";
@@ -36,69 +36,22 @@ export default () => {
       <Section id="nosotros">
         <h2>Nosotros</h2>
         <Grid>
+          <div className="nos-txt">
+            <p className="nos">
+              Somos una banda paranaense que nació como idea de hacer un tributo
+              punkrock a Los Palmeras en el año 2006. Cuando el proyecto
+              finalmente comenzó a tomar forma en el 2017, decidimos incorporar
+              al repertorio versiones rockeadas de Mario Pereyra, el Brujo
+              Ezequiel y otros clásicos de la cumbia santafesina.
+            </p>
+            <PalmersLogo height="3em" />
+          </div>
 
-
-
-
-        
-            <div className="nos-txt">
-              <p className="nos">
-                Somos una banda paranaense que nació como idea de hacer un
-                tributo punkrock a Los Palmeras en el año 2006. Cuando el
-                proyecto finalmente comenzó a tomar forma en el 2017, decidimos
-                incorporar al repertorio versiones rockeadas de Mario Pereyra,
-                el Brujo Ezequiel y otros clásicos de la cumbia santafesina.
-              </p>
-              <PalmersLogo height="3em" />
-            </div>
-
-
-
-
-
-
-
-
-
-
-            <NosotrosGrid>
+          <NosotrosGrid>
             {PalmersNosotros.map((item) => (
-              <img src={item.img_path} alt={item.name} />
+              <img src={item.img_path} alt={item.name} key={item.img_path} />
             ))}
-            </NosotrosGrid>
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          {/* <Grid>
-            <div className="nos-txt">
-              <p className="nos">
-                Somos una banda paranaense que nació como idea de hacer un
-                tributo punkrock a Los Palmeras en el año 2006. Cuando el
-                proyecto finalmente comenzó a tomar forma en el 2017, decidimos
-                incorporar al repertorio versiones rockeadas de Mario Pereyra,
-                el Brujo Ezequiel y otros clásicos de la cumbia santafesina.
-              </p>
-              <PalmersLogo height="3em" />
-            </div>
-            {PalmersNosotros.map((item) => (
-              <img src={item.img_path} alt={item.name} />
-            ))}
-          </Grid> */}
+          </NosotrosGrid>
         </Grid>
       </Section>
 
@@ -106,10 +59,8 @@ export default () => {
         <h2>Galería</h2>
         <MasonryLayout>
           {PalmersGallery.map((item) => (
-            
             <Scaffold>
-            <img src={item.img_path} alt="gallery-img" />
-              
+              <img src={item.img_path} alt="gallery-img" />
             </Scaffold>
           ))}
         </MasonryLayout>
