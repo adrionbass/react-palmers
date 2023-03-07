@@ -253,6 +253,7 @@ Error generating stack: `+i.message+`
   align-items: center;
   background: #090909;
 `,Da=e=>C(am,{children:e.children}),am=ae.div`
+ ${""}
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -263,18 +264,26 @@ Error generating stack: `+i.message+`
     height: auto;
     object-fit: cover;
     border-radius: 7px;
+
+    
+
+
+    @media screen and (max-width: 620px) {
+      grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+
+    }
+
+
+
+
   }
   .nos-txt {
-    
     text-align: center;
-
     @media screen and (min-width: 620px) {
       margin: auto;
       text-align: right;
 
     }
-
-
 
     @media screen and (min-width: 840px) {
 
@@ -282,6 +291,7 @@ Error generating stack: `+i.message+`
     }
     @media screen and (min-width: 940px) {
       ${""}
+      
       &:nth-child(1) {
       grid-row: 1 / span 2;
     }
@@ -347,4 +357,4 @@ Error generating stack: `+i.message+`
   }
 
   ${""}
-`,ah=()=>Ie(ch,{children:[C(nm,{}),C(lm,{}),Ie(cl,{children:[C("h2",{children:"News"}),C(Da,{children:xm.map(e=>Ie(mu,{children:[C("img",{src:e.img_path,alt:e.name}),C("h4",{children:e.name}),C("p",{className:"date",children:e.date}),C("p",{children:e.desc})]},e.name))})]}),Ie(cl,{id:"nosotros",children:[C("h2",{children:"Nosotros"}),Ie(Da,{children:[Ie("div",{className:"nos-txt",children:[C("p",{className:"nos",children:"Somos una banda paranaense que nació como idea de hacer un tributo punkrock a Los Palmeras en el año 2006. Cuando el proyecto finalmente comenzó a tomar forma en el 2017, decidimos incorporar al repertorio versiones rockeadas de Mario Pereyra, el Brujo Ezequiel y otros clásicos de la cumbia santafesina."}),C(sd,{height:"3em"})]}),C(uh,{children:Nm.map(e=>C("img",{src:e.img_path,alt:e.name}))})]})]}),Ie(cl,{children:[C("h2",{children:"Galería"}),C(zm,{children:oh.map(e=>C(mu,{children:C("img",{src:e.img_path,alt:"gallery-img"})}))})]}),Ie(cl,{id:"contacto",children:[C("h2",{children:"Contacto"}),C(hm,{}),C(yr,{children:C("a",{href:"https://wa.me/5493434749677",target:"_blank",children:"+54 9 343 474-9677"})}),C(yr,{children:C("a",{href:"mailto:palmersofpunkrock@gmail.com",target:"_blank",children:"palmersofpunkrock@gmail.com"})})]})]}),ch=ae.div``;fo.createRoot(document.getElementById("root")).render(C(et.StrictMode,{children:C(ah,{})}));
+`,ah=()=>Ie(ch,{children:[C(nm,{}),C(lm,{}),Ie(cl,{children:[C("h2",{children:"News"}),C(Da,{children:xm.map(e=>Ie(mu,{children:[C("img",{src:e.img_path,alt:e.name}),C("h4",{children:e.name}),C("p",{className:"date",children:e.date}),C("p",{children:e.desc})]},e.name))})]}),Ie(cl,{id:"nosotros",children:[C("h2",{children:"Nosotros"}),Ie(Da,{children:[Ie("div",{className:"nos-txt",children:[C("p",{className:"nos",children:"Somos una banda paranaense que nació como idea de hacer un tributo punkrock a Los Palmeras en el año 2006. Cuando el proyecto finalmente comenzó a tomar forma en el 2017, decidimos incorporar al repertorio versiones rockeadas de Mario Pereyra, el Brujo Ezequiel y otros clásicos de la cumbia santafesina."}),C(sd,{height:"3em"})]}),C(uh,{children:Nm.map(e=>C("img",{src:e.img_path,alt:e.name},e.img_path))})]})]}),Ie(cl,{children:[C("h2",{children:"Galería"}),C(zm,{children:oh.map(e=>C(mu,{children:C("img",{src:e.img_path,alt:"gallery-img"})}))})]}),Ie(cl,{id:"contacto",children:[C("h2",{children:"Contacto"}),C(hm,{}),C(yr,{children:C("a",{href:"https://wa.me/5493434749677",target:"_blank",children:"+54 9 343 474-9677"})}),C(yr,{children:C("a",{href:"mailto:palmersofpunkrock@gmail.com",target:"_blank",children:"palmersofpunkrock@gmail.com"})})]})]}),ch=ae.div``;fo.createRoot(document.getElementById("root")).render(C(et.StrictMode,{children:C(ah,{})}));
