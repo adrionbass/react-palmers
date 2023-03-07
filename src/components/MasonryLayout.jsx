@@ -21,4 +21,8 @@ const Grid = styled.div`
       border-radius: 0;
     }
   }
+
+  @media screen and (max-width: 620px) {
+    columns: 5 3rem;
+    }
 `;
