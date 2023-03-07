@@ -5,24 +5,19 @@ export default (props) => {
 };
 
 const Grid = styled.div`
-  columns: 5 10rem;
+  columns: 2 5rem;
   column-gap: 0.5em;
 
   img {
     max-width: 100%;
     margin-bottom: 0.5em;
-    transition: 0.3s ease;
+    transition: 0.3s all;
     &:hover {
       opacity: 0.5;
     }
-    &:active {
-      opacity: 1;
-      transform: scale(2);
-      ${'' /* transform-origin: left; */}
-    }
   }
 
-  @media screen and (max-width: 620px) {
+  ${'' /* @media screen and (max-width: 620px) {
     columns: 3 3rem;
-    }
+    } */}
 `;

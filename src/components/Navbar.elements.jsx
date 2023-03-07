@@ -90,6 +90,9 @@ export const ItemLink = styled.a`
 
   @media screen and (max-width: 960px) {
     width: 100%;
+    &:hover {
+      background-color: #f16767;
+    }
   }
 `;
 
@@ -110,12 +113,7 @@ export const SocialIconsRow = styled.ul`
 `;
 
 export const ItemSocial = styled.span`
-  ${'' /* display: flex; */}
-  ${'' /* justify-content: center; */}
-  ${'' /* align-items: center; */}
   padding: 0.5rem 0.5rem;
-  
-  ${'' /* text-decoration: none; */}
   cursor: pointer;
   transition: 0.5s all ease;
   svg {

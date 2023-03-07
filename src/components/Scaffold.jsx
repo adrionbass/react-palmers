@@ -38,6 +38,9 @@ const Section = styled.section`
     margin: 0;
   }
 
+  svg{
+    margin-top: 10px;
+  }
 
   @media screen and (max-width: 760px) {
 

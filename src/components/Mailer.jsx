@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 
-
 export default () => {
   const sendEmail = (e) => {
     e.preventDefault();
@@ -29,12 +28,7 @@ export default () => {
         <br />
         <label>Mensaje: </label>
         <br />
-        
-        
 
-
-
-        
         <textarea
           name="user_message"
           id=""
@@ -50,14 +44,14 @@ export default () => {
 };
 
 const Mailer = styled.div`
-${'' /* width: 50vw; */}
-display: flex;
-justify-content: center;
+  ${"" /* width: 50vw; */}
+  display: flex;
+  justify-content: center;
   background-color: #000;
   padding: 20px 35px;
   border-radius: 15px;
-  .data-ctt{
-    display:inline-block;
+  .data-ctt {
+    display: inline-block;
     text-align: right;
   }
   .input-text {
@@ -71,9 +65,9 @@ const Btn = styled.button`
   border-radius: 3px;
   padding: 0 15px;
   color: #000;
-  background: #FFB84C;
-  &:hover{
-    background: #F16767;
+  background: #ffb84c;
+  &:hover {
+    background: #f16767;
   }
   ${"" /* background: none; */}
 `;

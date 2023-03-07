@@ -17,10 +17,20 @@ const Grid = styled.div`
     border-radius: 7px;
   }
   .nos-txt {
+    
     text-align: center;
+
     @media screen and (min-width: 620px) {
+      margin: auto;
       text-align: right;
-      margin-top: 15%;
+
+    }
+
+
+
+    @media screen and (min-width: 840px) {
+
+      margin-top: 10%;
     }
     @media screen and (min-width: 940px) {
       ${'' /* grid-template-columns: repeat(3, 1fr); */}
