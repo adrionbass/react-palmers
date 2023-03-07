@@ -59,14 +59,14 @@ export const NavItem = styled.li`
 export const Active = styled.div`
   margin: 0 15px;
   padding: 5px;
-  background-color: #feac00;
+  background-color: #FFB84C;
   border-radius: 15px 0 15px 0;
   transition: 1s ease;
   &:hover {
     background-color: whitesmoke;
     border-radius: 0 15px 0 15px;
     a {
-      color: #feac00;
+      color: #FFB84C;
       background-color: whitesmoke;
     }
   }
@@ -85,7 +85,7 @@ export const ItemLink = styled.a`
   cursor: pointer;
   transition: 0.5s all ease;
   &:hover {
-    background-color: #feac00;
+    background-color: #FFB84C;
   }
 
   @media screen and (max-width: 960px) {
@@ -109,22 +109,23 @@ export const SocialIconsRow = styled.ul`
   }
 `;
 
-export const ItemSocial = styled.a`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+export const ItemSocial = styled.span`
+  ${'' /* display: flex; */}
+  ${'' /* justify-content: center; */}
+  ${'' /* align-items: center; */}
   padding: 0.5rem 0.5rem;
-  text-decoration: none;
+  
+  ${'' /* text-decoration: none; */}
   cursor: pointer;
   transition: 0.5s all ease;
   svg {
-    fill: #feac00;
+    fill: #A459D1;
   }
   &:hover {
     svg {
       fill: whitesmoke;
     }
-    background-color: #feac00;
+    background-color: #A459D1;
   }
 
   @media screen and (max-width: 960px) {

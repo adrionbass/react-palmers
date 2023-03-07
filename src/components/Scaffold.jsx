@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export default (props) => {
-  return <Section id={props.id}>{props.children}</Section>;
+  return <Section id={props.id}>
+  {props.children}
+  </Section>;
 };
 const Section = styled.section`
   color: whitesmoke;
@@ -15,6 +17,7 @@ const Section = styled.section`
   h2 {
     margin-bottom: 20px;
     letter-spacing: 0.5rem;
+    
   }
 
   p {
@@ -24,8 +27,17 @@ const Section = styled.section`
   h4 {
     font-size: 1rem;
     color: whitesmoke;
-    margin: 20px auto;
+    margin-top: 20px;
   }
+
+  
+  .date {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #777;
+    margin: 0;
+  }
+
 
   @media screen and (max-width: 760px) {
 
@@ -38,3 +50,12 @@ const Section = styled.section`
     }
   }
 `;
+
+const Line = styled.div`
+  width: 150px;
+  height: 4px;
+  background: #fc036b;
+  margin: 10px auto;
+  border-radius: 5px;
+
+`
