@@ -18,8 +18,8 @@ export default () => {
   return (
     <App>
       <Navbar />
-      <Hero></Hero>
-      <Section>
+      <Hero id="home"></Hero>
+      <Section id="news">
         <h2>News</h2>
         <Grid>
           {PalmersNews.map((item) => (
@@ -33,7 +33,7 @@ export default () => {
         </Grid>
       </Section>
 
-      <Section id="nosotros">
+      <Section id="about">
         <h2>Nosotros</h2>
         <Grid>
           <div className="nos-txt">
@@ -55,7 +55,7 @@ export default () => {
         </Grid>
       </Section>
 
-      <Section>
+      <Section id="gallery">
         <h2>Galería</h2>
         <MasonryLayout>
           {PalmersGallery.map((item) => (
@@ -66,7 +66,7 @@ export default () => {
         </MasonryLayout>
       </Section>
 
-      <Section id="contacto">
+      <Section id="contact">
         <h2>Contacto</h2>
         <Mailer />
 

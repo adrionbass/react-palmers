@@ -24,50 +24,59 @@ export default () => {
       <Wrapper>
         <IconContext.Provider value={{ style: { fontSize: "1.5em" } }}>
           <Logo>
-            <PalmersLogo height="2em" />
+            <a href="#">
+              <PalmersLogo height="2em" />
+            </a>
           </Logo>
           <Hamb onClick={() => setMobileMenu(!mobileMenu)}>
             {mobileMenu ? (
-              <HambIconOpend fill="#feac00" width="30px" />
+              <HambIconOpend fill="#FFB84C" width="30px" />
             ) : (
-              <HambIconClosd fill="#feac00" width="30px" />
+              <HambIconClosd fill="#FFB84C" width="30px" />
             )}
           </Hamb>
           <NavLinks open={mobileMenu}>
-            {/* <NavItem onClick={() => setMobileMenu(!mobileMenu)}>
-              <Active>
-                <ItemLink href="#fechas">FECHAS</ItemLink>
-              </Active>
-            </NavItem> */}
             <NavItem onClick={() => setMobileMenu(!mobileMenu)}>
-              <ItemLink href="#news">NEWS</ItemLink>
+              <ItemLink>
+                <a href="#news">NEWS</a>
+              </ItemLink>
             </NavItem>
             <NavItem onClick={() => setMobileMenu(!mobileMenu)}>
-              <ItemLink href="#about">NOSOTROS</ItemLink>
+              <ItemLink>
+                <a href="#about">NOSOTROS</a>
+              </ItemLink>
             </NavItem>
             <NavItem onClick={() => setMobileMenu(!mobileMenu)} class="ctn">
-              <ItemLink href="#contacto">CONTACTO</ItemLink>
+              <ItemLink>
+                <a href="#contact">CONTACTO</a>
+              </ItemLink>
             </NavItem>
             <NavItem>
               <SocialIconsRow>
                 <NavItem>
                   <ItemSocial>
                     <a href="" target="_blank">
-                    <FaSpotify />
+                      <FaSpotify />
                     </a>
                   </ItemSocial>
                 </NavItem>
                 <NavItem>
                   <ItemSocial>
-                    <a href="https://www.youtube.com/@palmersofpunkrock4635" target="_blank">
-                    <FaYoutube />
+                    <a
+                      href="https://www.youtube.com/@palmersofpunkrock4635"
+                      target="_blank"
+                    >
+                      <FaYoutube />
                     </a>
                   </ItemSocial>
                 </NavItem>
                 <NavItem>
                   <ItemSocial>
-                    <a href="https://www.instagram.com/palmersofpunkrock/" target="_blank">
-                    <FaInstagram />
+                    <a
+                      href="https://www.instagram.com/palmersofpunkrock/"
+                      target="_blank"
+                    >
+                      <FaInstagram />
                     </a>
                   </ItemSocial>
                 </NavItem>
