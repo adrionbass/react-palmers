@@ -17,7 +17,7 @@ const Section = styled.section`
     letter-spacing: -0.5rem;
     transition: 0.3s all;
     &:hover {
-      letter-spacing: 0.8rem;
+      letter-spacing: 0.5rem;
       text-decoration-line: underline;
       text-decoration-color: #f16767;
     }

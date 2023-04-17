@@ -23,7 +23,7 @@ export const Logo = styled.div`
   font-size: 1.2em;
 `;
 
-export const NavLinks = styled.ul`
+export const NavList = styled.ul`
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -85,14 +85,11 @@ export const ItemLink = styled.a`
   cursor: pointer;
   transition: 0.5s all ease;
   &:hover {
-    background-color: #FFB84C;
+    background-color: #A459D1;
   }
 
   @media screen and (max-width: 960px) {
     width: 100%;
-    &:hover {
-      background-color: #f16767;
-    }
   }
 `;
 
@@ -117,17 +114,21 @@ export const ItemSocial = styled.span`
   cursor: pointer;
   transition: 0.5s all ease;
   svg {
-    fill: #A459D1;
+    fill: #FFB84C;
   }
   &:hover {
     svg {
       fill: whitesmoke;
     }
     background-color: #A459D1;
+    border-radius: 50%;
   }
 
   @media screen and (max-width: 960px) {
     width: 100%;
+    svg {
+    fill: #f16767;
+  }
   }
 `;
 

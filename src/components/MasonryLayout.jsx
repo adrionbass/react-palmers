@@ -17,7 +17,7 @@ const Grid = styled.div`
     }
     &:active {
       opacity: 1;
-      transform: scale(2);
+      transform: scale(3);
       ${'' /* transform-origin: left; */}
     }
   }

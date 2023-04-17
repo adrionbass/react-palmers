@@ -1,10 +1,12 @@
 import styled from "styled-components";
-import bgHeroImg from "../assets/hero-cover.jpg"
+import bgHeroImg from "../assets/hero-cover.jpg";
 
 export default (props) => {
   return (
     <Hero>
-      <HeroContent>{props.children}</HeroContent>
+      <HeroContent>
+        {props.children}
+      </HeroContent>
     </Hero>
   );
 };
@@ -19,6 +21,9 @@ const Hero = styled.section`
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  ${'' /* @media screen and (max-width: 920px) {
+      display: none;
+    } */}
 `;
 
 const HeroContent = styled.div`

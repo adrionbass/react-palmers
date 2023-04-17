@@ -4,7 +4,7 @@ import {
   Navbar,
   Logo,
   NavItem,
-  NavLinks,
+  NavList,
   ItemLink,
   ItemSocial,
   Active,
@@ -24,7 +24,7 @@ export default () => {
       <Wrapper>
         <IconContext.Provider value={{ style: { fontSize: "1.5em" } }}>
           <Logo>
-            <a href="#">
+            <a href="#home">
               <PalmersLogo height="2em" />
             </a>
           </Logo>
@@ -35,27 +35,35 @@ export default () => {
               <HambIconClosd fill="#FFB84C" width="30px" />
             )}
           </Hamb>
-          <NavLinks open={mobileMenu}>
+          <NavList open={mobileMenu}>
             <NavItem onClick={() => setMobileMenu(!mobileMenu)}>
-              <ItemLink>
-                <a href="#news">NEWS</a>
+              <ItemLink href="#news">
+                NEWS
               </ItemLink>
             </NavItem>
             <NavItem onClick={() => setMobileMenu(!mobileMenu)}>
-              <ItemLink>
-                <a href="#about">NOSOTROS</a>
+              <ItemLink href="#about">
+                NOSOTROS
+              </ItemLink>
+            </NavItem>
+            <NavItem onClick={() => setMobileMenu(!mobileMenu)}>
+              <ItemLink href="#gallery">
+                GALERIA
               </ItemLink>
             </NavItem>
             <NavItem onClick={() => setMobileMenu(!mobileMenu)} class="ctn">
-              <ItemLink>
-                <a href="#contact">CONTACTO</a>
+              <ItemLink href="#contact">
+                CONTACTO
               </ItemLink>
             </NavItem>
             <NavItem>
               <SocialIconsRow>
                 <NavItem>
                   <ItemSocial>
-                    <a href="" target="_blank">
+                    <a
+                      href="https://open.spotify.com/album/1ZC1E9zjMoHRia0eFLSxPm?si=_zLqHc9XSOyCC2Pzk2ADqQ"
+                      target="_blank"
+                    >
                       <FaSpotify />
                     </a>
                   </ItemSocial>
@@ -82,7 +90,7 @@ export default () => {
                 </NavItem>
               </SocialIconsRow>
             </NavItem>
-          </NavLinks>
+          </NavList>
         </IconContext.Provider>
       </Wrapper>
     </Navbar>
