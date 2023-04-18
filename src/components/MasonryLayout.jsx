@@ -15,9 +15,9 @@ const Grid = styled.div`
     &:hover {
       opacity: 0.5;
     }
-    &:active {
+    &:hover {
       opacity: 1;
-      transform: scale(3);
+      transform: scale(2);
       ${'' /* transform-origin: left; */}
     }
   }
