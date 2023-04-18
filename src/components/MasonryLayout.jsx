@@ -12,9 +12,9 @@ const Grid = styled.div`
     max-width: 100%;
     margin-bottom: 0.5em;
     transition: 0.3s ease;
-    &:hover {
+    ${'' /* &:hover {
       opacity: 0.5;
-    }
+    } */}
     &:hover {
       opacity: 1;
       transform: scale(2);
