@@ -7,7 +7,6 @@ import {
   NavList,
   ItemLink,
   ItemSocial,
-  Active,
   Hamb,
   Wrapper,
   SocialIconsRow,

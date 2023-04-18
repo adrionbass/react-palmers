@@ -14,6 +14,7 @@ export const Wrapper = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   margin: auto;
+  padding: 0 30px;
 `;
 
 export const Logo = styled.div`
