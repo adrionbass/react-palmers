@@ -13,13 +13,13 @@ const PalmersNews = [
   {
     name: "Nuevos temas, nuevas redes",
     img_path: img1,
-    desc: "Muy anciosos por nuestra inminente apareción en Spotify, contamos que se vienen nuevas versiones punk-rock de éxitos!",
+    desc: "Muy ansiosos por nuestra inminente apareción en Spotify, contamos que se vienen nuevas versiones punk-rock de éxitos!",
     date: "05/03/2023",
   },
   {
     name: "Kamisama Fest @ Limbo",
     img_path: img2,
-    desc: "Se viene la primera entrega del 'Kamisama Fest!' junto a los amigos de Lunático Sr. Yamaguchi, de Santa Fe (surf-rock). Sábado 25 de Febrero, 23:00Hs en Limno-pun, Paraná. No olvides ir con tu mejor camisa floreada!",
+    desc: "Se viene la primera entrega del 'Kamisama Fest!' junto a los amigos de Lunático Sr. Yamaguchi, de Santa Fe (surf-rock). Sábado 25 de Febrero, 23:00Hs en Limbo pub, Paraná. No olvides ir con tu mejor camisa floreada!",
     date: "03/01/2023",
   },
   {
