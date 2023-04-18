@@ -330,7 +330,7 @@ Error generating stack: `+o.message+`
     }
     &:hover {
       opacity: 1;
-      transform: scale(3);
+      transform: scale(2);
       ${""}
     }
   }
