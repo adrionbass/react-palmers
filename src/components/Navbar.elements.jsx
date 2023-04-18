@@ -15,6 +15,9 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   margin: auto;
   padding: 0 30px;
+  @media screen and (max-width: 640px) {
+      justify-content: right;
+    }
 `;
 
 export const Logo = styled.div`
@@ -22,6 +25,9 @@ export const Logo = styled.div`
   display: flex;
   align-items: center;
   font-size: 1.2em;
+  @media screen and (max-width: 640px) {
+      display: none;
+    }
 `;
 
 export const NavList = styled.ul`
