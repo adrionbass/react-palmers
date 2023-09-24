@@ -2,8 +2,22 @@ import img1 from "../assets/news-img/palmers-cover-1.jpg";
 import img2 from "../assets/news-img/kamisama-fest-cuadrado.jpg";
 import img3 from "../assets/news-img/ramirez-festeja.jpg";
 import img4 from "../assets/news-img/vieja-usina.jpg";
+import img5 from "../assets/news-img/pasos-prohibidos.png"
+import img6 from "../assets/news-img/secretos-almohada.jpg"
 
 const PalmersNews = [
+  {
+    name: "Los secretos de mi almohada",
+    img_path: img6,
+    desc: "Saben que sucede el próximo domingo 13 de agosto? Si respondieron 'el cumple de Leo' o 'elecciones PASO 2023' está bien! Y si dijeron 'Nuevo videoclip de Palmers', también! Damas y caballeros, con ustedes... 'Los secretos de mi almohada'",
+    date: "06/08/2023",
+  },
+  {
+    name: "Pasos prohibidos",
+    img_path: img5,
+    desc: "Hoy, 19/5, cumpleaños de Joey Ramone, publicamos nuestro segundo EP 'Pasos prohibidos', con algunos éxitos santafesinos en versión punk rockera. Coincidencia: El disco ramonero 'Animal Boy', se publicó también un dia como hoy, de 1986",
+    date: "19/05/2023",
+  },
   {
     name: "Pre seleccionados para Ramirez Festeja",
     img_path: img3,
