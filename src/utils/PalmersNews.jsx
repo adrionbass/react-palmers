@@ -15,7 +15,7 @@ const PalmersNews = [
   {
     name: "Pasos prohibidos",
     img_path: img5,
-    desc: "Hoy, 19/5, cumpleaños de Joey Ramone, publicamos nuestro segundo EP 'Pasos prohibidos', con algunos éxitos santafesinos en versión punk rockera. Coincidencia: El disco ramonero 'Animal Boy', se publicó también un dia como hoy, de 1986",
+    desc: "Hoy, cumpleaños de Joey Ramone, publicamos nuestro segundo EP 'Pasos prohibidos', con algunos éxitos santafesinos en versión punk rockera. Coincidencia: El disco ramonero 'Animal Boy', se publicó también un dia como hoy, de 1986",
     date: "19/05/2023",
   },
   {
